@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kotlin-Flow
+  description: Component for Kotlin-Flow
+  annotations:
+    circleci.com/project-slug: github/newsuk/Kotlin-Flow
+    backstage.io/source-location: url:https://github.com/newsuk/Kotlin-Flow/
+    github.com/team-slug: newsuk/Kotlin-Flow
+    backstage.io/productivity-hub-metrics-enabled: 'true'
+  tags:
+    - bu:newsuk
+spec:
+  type: service
+  lifecycle: production
+  owner: nuk
